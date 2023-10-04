@@ -5,7 +5,7 @@ const dogButton = document.getElementById('get-dog');
 dogButton.addEventListener('click', function () {
   // When the button is clicked, execute the following code
 
-  // Calls the getData() function to fetch a random dog image
+  // Call the getData() function to fetch a random dog image
   getData()
     .then((response) => {
       // If the request is successful, update the dog image on the page
